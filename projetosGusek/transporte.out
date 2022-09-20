@@ -1,0 +1,40 @@
+Problem:    transporte
+Rows:       7
+Columns:    8 (8 integer, 0 binary)
+Non-zeros:  24
+Status:     INTEGER OPTIMAL
+Objective:  custo = 78420 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 custo                   78420                             
+     2 ofertas[1]                 45            45             = 
+     3 ofertas[2]                 36            36             = 
+     4 oferta_artificial
+                                   9             9             = 
+     5 demandas[1]                30            30             = 
+     6 demandas[2]                30            30             = 
+     7 demandas[3]                30            30             = 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 UiCj[1,1]    *             15             0               
+     2 UiCj[1,2]    *              0             0               
+     3 UiCj[1,3]    *             30             0               
+     4 UiCj[2,1]    *              6             0               
+     5 UiCj[2,2]    *             30             0               
+     6 UiCj[2,3]    *              0             0               
+     7 ArtUCj[1]    *              9             0               
+     8 ArtUCj[2]    *              0             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
